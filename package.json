@@ -1,0 +1,37 @@
+{
+  "name": "jokinen.dev",
+  "version": "1.0.0",
+  "description": "A portfolio website",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --config ./webpack.dev.js"
+  },
+  "keywords": [
+    "portfolio",
+    "cv"
+  ],
+  "author": "Tapio Jokinen",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "css-loader": "^6.9.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.2.1",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
