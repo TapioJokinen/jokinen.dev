@@ -2,4 +2,4 @@
 <https://jokinen.dev>
 <br>
 
-*No, this is not how you should do websites...*
+*Made purely with TS, lost a couple of brain cells in process.*
