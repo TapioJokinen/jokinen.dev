@@ -2,7 +2,7 @@
 
 set -e
 
-docker build -t jokinen.dev
+docker buildx build -t jokinen.dev
 
 docker run -d jokinen.dev
 
