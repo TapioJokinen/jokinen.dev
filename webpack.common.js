@@ -4,8 +4,6 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
-const isProduction = process.env.NODE_ENV === 'production';
-
 module.exports = {
   entry: {
     app: './js/app.ts',
@@ -51,7 +49,6 @@ module.exports = {
     }),
   ],
   optimization: {
-    minimize: isProduction,
     minimizer: ['...', new CssMinimizerPlugin()],
   },
 };
