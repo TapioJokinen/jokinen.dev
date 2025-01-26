@@ -4,6 +4,8 @@ set -e
 
 cd ~/jokinen.dev
 
+git pull
+
 docker buildx build . -t jokinen.dev
 
 docker run -d jokinen.dev
