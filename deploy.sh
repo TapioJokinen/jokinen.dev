@@ -15,7 +15,6 @@ if [ -z "$CONTAINER_ID" ]; then
     exit 1
 fi
 
-
 docker cp "$CONTAINER_ID":/app/dist/. ./dist
 
 docker stop "$CONTAINER_ID"
