@@ -29,6 +29,6 @@ if [ -z "$WEBSERVER_CONTAINER_ID" ]; then
     exit 1
 fi
 
-docker cp ./dist/. "$WEBSERVER_CONTAINER_ID":/var/www/html
+docker cp ./dist/. "$WEBSERVER_CONTAINER_ID":/www/data/jokinen.dev
 
 docker exec "$WEBSERVER_CONTAINER_ID" nginx -s reload
